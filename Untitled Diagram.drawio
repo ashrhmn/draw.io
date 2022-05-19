@@ -1,11 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T13:04:42.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="0MFwd_DfnYsgtkytcsYd" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T13:54:11.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="zn_xogNlgESnDtTrGKBx" version="18.0.7" type="github">
   <diagram id="vP8A0uNJRNgBJd5LCkdt" name="Page-1">
-    <mxGraphModel dx="1258" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-7vvdtbsbvM_jQikLAkg-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ERC20 Token&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;REM Coin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initial Supply 0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ERC20 Token&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;REM Coin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initial Supply 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Owners Balance 0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-6" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-7" target="-7vvdtbsbvM_jQikLAkg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-7" value="Alex downloads the app and decide to load crypto to the app worth 100$" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-8" target="-7vvdtbsbvM_jQikLAkg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-8" value="Alex sends 100$ to owner&#39;s bank account through some payment system (Could be stripe/apple/google pay or bank transfers)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-11" target="-7vvdtbsbvM_jQikLAkg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-11" value="Owner&#39;s bank balance : 100$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-14" target="-7vvdtbsbvM_jQikLAkg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-14" value="Owner mints 100 REM coin&lt;br&gt;&lt;br&gt;REM coin total supply : 100&lt;br&gt;100 REM coin is backed by 100$ (Owners bank account)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-17" target="-7vvdtbsbvM_jQikLAkg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-17" value="REM coin balance of Alex : 100REM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.464;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-19" target="-7vvdtbsbvM_jQikLAkg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-19" value="Alex sends 40REM coin to John&lt;br&gt;(ERC20 transfer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-20" target="-7vvdtbsbvM_jQikLAkg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-20" value="REM Total supply : 100&lt;br&gt;REM balance:&lt;br&gt;Owner : 0&lt;br&gt;Alex : 60&lt;br&gt;John : 40" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="670" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-21" target="-7vvdtbsbvM_jQikLAkg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-21" value="John decides to withdraw 40REM and transfers 40REM to owner&#39;s account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7vvdtbsbvM_jQikLAkg-22" target="-7vvdtbsbvM_jQikLAkg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-22" value="Owner burns 40REM coin and sends 40$ to John through some transfers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-7vvdtbsbvM_jQikLAkg-23" value="Token total supply 60&lt;br&gt;Backed by : 60$ (Owner&#39;s bank balance)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="970" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
